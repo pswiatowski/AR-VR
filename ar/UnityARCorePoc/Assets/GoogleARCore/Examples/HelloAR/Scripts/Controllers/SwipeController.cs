@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 
 public class SwipeController : MonoBehaviour {
@@ -13,30 +11,24 @@ public class SwipeController : MonoBehaviour {
     public Vector3 firstTouch; // First touch position
     public Vector3 lastTouch;  // Last touch position
     private float dragDistance;
-    public Vector3 deltaDirection;
-
 
     void Start() {
         instance = this;
         dragDistance = Screen.height * 15 / 100;
     }
 
-    void Update()
-    {
+    void Update() {
         Direction = SwipeDirection.None;
 
 #if UNITY_EDITOR
 
-        if (Input.GetMouseButtonDown(0))
-        {
+        if (Input.GetMouseButtonDown(0)) {
             firstTouch = Input.mousePosition;
         }
 
-        if (Input.GetMouseButtonUp(0))
-        {
+        if (Input.GetMouseButtonUp(0)) {
             lastTouch = Input.mousePosition;
 
-            deltaDirection = firstTouch - lastTouch;
             CheckSwipe();
         }
 
@@ -52,7 +44,6 @@ public class SwipeController : MonoBehaviour {
                 case TouchPhase.Ended:
                     lastTouch = touch.position;
 
-                    deltaDirection = firstTouch - lastTouch;
                     CheckSwipe();
 
                     break;
@@ -60,6 +51,7 @@ public class SwipeController : MonoBehaviour {
         }
 
 #endif
+
     }
 
     public bool IsSwiping(SwipeDirection dir) {
@@ -81,14 +73,13 @@ public class SwipeController : MonoBehaviour {
                 if (lastTouch.y > firstTouch.y) {
                     // Up swipe
                     Direction |= SwipeDirection.Up;
-                }
-                else {
+                } else {
                     // Down swipe
                     Direction |= SwipeDirection.Down;
                 }
             }
         } else {
-            Debug.Log("Tap");
+            // Tap
         }
     }
 }
@@ -99,4 +90,4 @@ public enum SwipeDirection {
     Right = 2,
     Up = 4,
     Down = 8
-} 
+}
