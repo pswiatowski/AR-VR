@@ -19,10 +19,8 @@ public class ObjectController : MonoBehaviour {
 	public Color Color;
 	public Transform camTr;
 	public Transform shoe;
-	public Vector3 firstPosition;
 	public Quaternion shoeRotation;
 	public Light Lightcomponent;
-	public bool moved;
 
 	public Vector3 camPos;
 
@@ -31,15 +29,15 @@ public class ObjectController : MonoBehaviour {
 	void Start () {
         // Set canvas object to deactivate
         messageCanvas.SetActive(false);
-
+		// We initiate the color picker
 		picker.onValueChanged.AddListener(color =>
 			{
 						Color = color;
 						Debug.Log (color);
 			});
-		
+		// We get the default position of the shoe
 		shoeRotation = transform.rotation;
-		firstPosition = camTr.position;
+		// We initiate the variable camPos with the default position of the camera
 		camPos = camTr.position;
 	}
 	
@@ -52,6 +50,7 @@ public class ObjectController : MonoBehaviour {
             canvasRotation.y = Camera.main.transform.rotation.y;
             messageCanvas.transform.rotation = canvasRotation;
         }
+		// Set the rotation of the shoe (there's one shoe that is moved -90º so we need to rotate it in other axis)
 		if (rotate) {
 			if (transform.parent.rotation.x != 0) {
 				transform.Rotate (new Vector3 (0, 0, Time.deltaTime * 30));
@@ -65,7 +64,7 @@ public class ObjectController : MonoBehaviour {
 
 	}
 
-    public void ShowMessage() {
+    public void ShoeClicked() {
         // Set header and body text
         header.text = title;
         body.text = description;
@@ -78,6 +77,7 @@ public class ObjectController : MonoBehaviour {
         // Set canvas object to active
         messageCanvas.SetActive(true);
 
+		// Set the color of the UpperOut layer to the color selected in the picker
 		ren = GetComponent<Renderer> ();
 		mat = ren.materials;
 		for (int i = 0; i < mat.Length; i++) {
@@ -85,25 +85,25 @@ public class ObjectController : MonoBehaviour {
 				mat [i].SetColor("_Color",Color);
 			} 
 		}
-		Debug.Log (mat [0].name);
 
+		// Move the camera close to the selected shoe
 		camPos = new Vector3 (shoe.position.x, shoe.position.y+(float)0.4, shoe.position.z-(float)0.4);
-
-
-		rotate = true;
 		camTr.position = camPos;
-		moved = true;
 
+		// Set rotate to true
+		rotate = true;
+
+		// Enable a light to illuminate the selected shoe
 		Lightcomponent.enabled = true;
 		Lightcomponent.transform.position = new Vector3 (shoe.position.x, shoe.position.y + (float)0.4, shoe.position.z);
-
-
     } 
 
-    public void HideMessage() {
+    public void ShoeUnfocused() {
         // Set canvas object to deactivate
 		messageCanvas.SetActive(false);
+		// Set the rotation to the default value
 		transform.rotation = shoeRotation;
+		// Set rotate to false so the shoe stops rotating
 		rotate = false;
     }
 }
