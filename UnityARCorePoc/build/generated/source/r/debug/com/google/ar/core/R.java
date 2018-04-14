@@ -8,18 +8,18 @@ package com.google.ar.core;
 
 public final class R {
     public static final class id {
-        public static final int __arcore_cancelButton = 0x7f060001;
-        public static final int __arcore_continueButton = 0x7f060002;
-        public static final int __arcore_messageText = 0x7f060000;
+        public static int __arcore_cancelButton = 0x7f0c0001;
+        public static int __arcore_continueButton = 0x7f0c0002;
+        public static int __arcore_messageText = 0x7f0c0003;
     }
     public static final class layout {
-        public static final int __arcore_education = 0x7f030000;
+        public static int __arcore_education = 0x7f0f0001;
     }
     public static final class string {
-        public static final int __arcore_cancel = 0x7f040000;
-        public static final int __arcore_continue = 0x7f040001;
-        public static final int __arcore_install_app = 0x7f040002;
-        public static final int __arcore_install_feature = 0x7f040003;
-        public static final int __arcore_installing = 0x7f040004;
+        public static int __arcore_cancel = 0x7f150001;
+        public static int __arcore_continue = 0x7f150002;
+        public static int __arcore_install_app = 0x7f150003;
+        public static int __arcore_install_feature = 0x7f150004;
+        public static int __arcore_installing = 0x7f150005;
     }
 }

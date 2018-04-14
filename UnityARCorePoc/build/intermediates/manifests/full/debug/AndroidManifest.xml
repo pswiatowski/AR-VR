@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.adidas.UnityARCorePoc"
     android:installLocation="preferExternal"
     android:versionCode="1"
@@ -29,13 +30,6 @@
     <uses-feature
         android:name="android.hardware.touchscreen.multitouch.distinct"
         android:required="false" />
-    <uses-feature
-        android:name="android.hardware.camera.ar"
-        android:required="true" />
-
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:banner="@drawable/app_banner"
@@ -79,20 +73,6 @@
         <meta-data
             android:name="unity.tango-enable"
             android:value="True" />
-        <!-- This activity is critical for installing ARCore when it is not already present. -->
-        <activity
-            android:name="com.google.ar.core.InstallActivity"
-            android:configChanges="keyboardHidden|orientation|screenSize"
-            android:excludeFromRecents="true"
-            android:exported="false"
-            android:launchMode="singleTop"
-            android:theme="@android:style/Theme.Material.Light.Dialog.Alert" /> <!-- The minimal version code of ARCore APK required for an app using this SDK. -->
-        <meta-data
-            android:name="com.google.ar.core.min_apk_version"
-            android:value="180129103" />
-        <meta-data
-            android:name="com.google.ar.core"
-            android:value="required" />
     </application>
 
 </manifest>

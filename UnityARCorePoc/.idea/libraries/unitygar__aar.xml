@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="unitygar:@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.android/build-cache/611df0a6dfbe03f96cb314518651d3d9b1e3bc4c/output/res" />
-      <root url="jar://$USER_HOME$/.android/build-cache/611df0a6dfbe03f96cb314518651d3d9b1e3bc4c/output/jars/classes.jar!/" />
-      <root url="jar://$USER_HOME$/.android/build-cache/611df0a6dfbe03f96cb314518651d3d9b1e3bc4c/output/jars/libs/tango_java_lib.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/unitygar.aar/09f24dd4cd7cc9bd371765636495ffbb/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/unitygar.aar/09f24dd4cd7cc9bd371765636495ffbb/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/unitygar.aar/09f24dd4cd7cc9bd371765636495ffbb/jars/libs/tango_java_lib.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
