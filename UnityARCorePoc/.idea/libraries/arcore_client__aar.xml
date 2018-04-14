@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="arcore_client:@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/5c77e13b847fb508527802b86d70ae3538cc691d/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/5c77e13b847fb508527802b86d70ae3538cc691d/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/pswiatowski/.android/build-cache/5c77e13b847fb508527802b86d70ae3538cc691d/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.1"
+        sha1="400e0334f6617e0690ec615d709d93e999b53402">
+        <dex dex="/Users/pswiatowski/AR-VR/UnityARCorePoc/build/intermediates/transforms/dex/debug/folders/1000/10/classes_912ec3fa776a69fbffbca5ef337d590291d55de2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pswiatowski/.android/build-cache/611df0a6dfbe03f96cb314518651d3d9b1e3bc4c/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.1"
+        sha1="3b08b853fe85764387602ff10decaf2b449f4ea2">
+        <dex dex="/Users/pswiatowski/AR-VR/UnityARCorePoc/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5e78d2fc91c30f946f9339d7535d66d2ed85acdf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pswiatowski/AR-VR/UnityARCorePoc/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.1"
+        sha1="c323c36ecc68965c4cfb460f7721113d2b61ed03">
+        <dex dex="/Users/pswiatowski/AR-VR/UnityARCorePoc/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_7f7c1df0587c4a2ac1217be7f70909340ad34b9b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pswiatowski/.android/build-cache/f1757aaae1348b48918541c8ff855e4788e3ac09/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.1"
+        sha1="be35cfb98dbf80214072c4eb41da843fb0d4400d">
+        <dex dex="/Users/pswiatowski/AR-VR/UnityARCorePoc/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9fe770ffddd11f22b62540ea783d9f8d4a83ad27/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pswiatowski/AR-VR/UnityARCorePoc/libs/unity-classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.1"
+        sha1="2d302418aa3482b8db770278260340aed47dd37a">
+        <dex dex="/Users/pswiatowski/AR-VR/UnityARCorePoc/build/intermediates/transforms/dex/debug/folders/1000/2/unity-classes_62c2f7f963acac396be79bf148458c441e66ec35/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pswiatowski/AR-VR/UnityARCorePoc/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.1"
+        sha1="87bfb76555550f812e1156c98f641911361cd54a">
+        <dex dex="/Users/pswiatowski/AR-VR/UnityARCorePoc/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_35ebf3de1fdb702d3f30bdd5950c24349d3a2e51/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/pswiatowski/.android/build-cache/611df0a6dfbe03f96cb314518651d3d9b1e3bc4c/output/jars/libs/tango_java_lib.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.1"
+        sha1="dac29b41332a170a55310a99e3e2f3058e3ac419">
+        <dex dex="/Users/pswiatowski/AR-VR/UnityARCorePoc/build/intermediates/transforms/dex/debug/folders/1000/10/tango_java_lib_b5d3c9de5d802d09c20c1a2841018506dc1d8fdb/classes.dex" />
+    </item>
+
+</items>
