@@ -1,0 +1,4 @@
+#Sat Apr 14 22:26:00 CEST 2018
+base.0=/Users/pswiatowski/AR-VR/UnityARCorePoc/build/intermediates/transforms/dexMerger/feature/debug/0
+path.0=classes.dex
+renamed.0=classes.dex

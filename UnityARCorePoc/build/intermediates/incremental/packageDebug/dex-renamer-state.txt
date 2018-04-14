@@ -1,7 +1,0 @@
-#Sat Apr 14 16:07:10 CEST 2018
-base.0=/Users/pswiatowski/AR-VR/UnityARCorePoc/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_7f7c1df0587c4a2ac1217be7f70909340ad34b9b
-renamed.1=classes2.dex
-renamed.0=classes.dex
-file.1=/Users/pswiatowski/AR-VR/UnityARCorePoc/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_35ebf3de1fdb702d3f30bdd5950c24349d3a2e51/classes.dex
-base.1=/Users/pswiatowski/AR-VR/UnityARCorePoc/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_35ebf3de1fdb702d3f30bdd5950c24349d3a2e51
-file.0=/Users/pswiatowski/AR-VR/UnityARCorePoc/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_7f7c1df0587c4a2ac1217be7f70909340ad34b9b/classes.dex

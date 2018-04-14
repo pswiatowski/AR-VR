@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/pswiatowski/AR-VR/UnityARCorePoc/build/intermediates/res/merged/feature/debug/drawable-mdpi_app_icon.png.flat",
+        "source": "/Users/pswiatowski/AR-VR/UnityARCorePoc/src/main/res/drawable-mdpi/app_icon.png"
+    },
+    {
+        "merged": "/Users/pswiatowski/AR-VR/UnityARCorePoc/build/intermediates/res/merged/feature/debug/layout___arcore_education.xml.flat",
+        "source": "/Users/pswiatowski/.gradle/caches/transforms-1/files-1.1/arcore_client.aar/43742a9baec47590202a4167dd4e9ab9/res/layout/__arcore_education.xml"
+    },
+    {
+        "merged": "/Users/pswiatowski/AR-VR/UnityARCorePoc/build/intermediates/res/merged/feature/debug/drawable-xhdpi_app_banner.png.flat",
+        "source": "/Users/pswiatowski/AR-VR/UnityARCorePoc/src/main/res/drawable-xhdpi/app_banner.png"
+    }
+]

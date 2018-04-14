@@ -17,6 +17,7 @@ allprojects {
             dirs 'libs'
         }
         google()
+        jcenter()
     }
 }
 
